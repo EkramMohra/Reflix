@@ -1,0 +1,24 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+
+.directory-img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+
+  }
+div{
+    color: white;
+}
+.icon{
+    right: 0;
+    cursor: pointer;
+    
+}

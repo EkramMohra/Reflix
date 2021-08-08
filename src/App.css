@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+#main-links>a {
+ 
+    color: #34495e;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+    font-size: large;
+}
+
+* {
+    text-decoration: none;
+    font-family: 'ui-sans-serif';
+    margin: 10px;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+}
+
+#home-container {
+    text-align: center;
+}
+
+#home-background {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#blue {
+    background-color: rgb(0, 204, 255);
+}
+
+#purple {
+    background-color: rgb(119, 119, 231);
+}
+
+#pink {
+    background-color: pink;
+}
+
+#yellow {
+    background-color: rgb(243, 241, 96);
+}
